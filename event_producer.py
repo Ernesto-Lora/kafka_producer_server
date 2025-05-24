@@ -67,5 +67,5 @@ class EventProducer:
             print("Producer stopped")
 
 if __name__ == "__main__":
-    producer = EventProducer("localhost:9092")
+    producer = EventProducer("3.93.63.158:9092")
     producer.produce_events()
